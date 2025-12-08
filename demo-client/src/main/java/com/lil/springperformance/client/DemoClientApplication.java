@@ -51,7 +51,7 @@ public class DemoClientApplication {
 	public CommandLineRunner run(RestTemplate restTemplate) {
 		return args -> {
 			Quote quote = restTemplate.getForObject(
-					"https://quoters.apps.pcfone.io/api/random", Quote.class);
+					"http://localhost:8080/api/random", Quote.class);
 		};
 	}
 
