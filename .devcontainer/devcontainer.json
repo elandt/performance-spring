@@ -16,13 +16,13 @@
 		"ghcr.io/devcontainers/features/git:1": {
 			"version": "latest"
 		}
-	}
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "java -version",
+	"postCreateCommand": "sudo apt-get update && sudo apt-get install -y visualvm"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
