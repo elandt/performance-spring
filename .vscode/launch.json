@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "DemoApiApplication",
+            "request": "launch",
+            "mainClass": "com.lil.springperformance.api.DemoApiApplication",
+            "projectName": "api"
+        },
+        {
+            "type": "java",
+            "name": "DemoClientApplication",
+            "request": "launch",
+            "mainClass": "com.lil.springperformance.client.DemoClientApplication",
+            "projectName": "client"
+        },
+        {
+            "type": "java",
+            "name": "DemoClientApplication - Glowroot",
+            "request": "launch",
+            "mainClass": "com.lil.springperformance.client.DemoClientApplication",
+            "projectName": "client",
+            "vmArgs": "-Xms100M -Xmx100M -javaagent:/workspaces/performance-spring/glowroot/glowroot.jar"
+        },
+        {
+            "type": "java",
+            "name": "QuotersIncorporatedApplication",
+            "request": "launch",
+            "mainClass": "org.springframework.quoters.QuotersIncorporatedApplication",
+            "projectName": "quoters-incorporated"
+        }
+    ]
+}
