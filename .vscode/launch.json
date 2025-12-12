@@ -35,6 +35,14 @@
         },
         {
             "type": "java",
+            "name": "DemoClientApplication - JVM Challenge",
+            "request": "launch",
+            "mainClass": "com.lil.springperformance.client.DemoClientApplication",
+            "projectName": "client",
+            "vmArgs": "-Xms100M -Xmx100M"
+        },
+        {
+            "type": "java",
             "name": "QuotersIncorporatedApplication",
             "request": "launch",
             "mainClass": "org.springframework.quoters.QuotersIncorporatedApplication",
