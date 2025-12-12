@@ -18,7 +18,7 @@ public class DemoController {
 
     private static Logger logger = LoggerFactory.getLogger(DemoController.class);
     
-    private final String QUOTER_API = "https://quoters.apps.pcfone.io/api/random";
+    private final String QUOTER_API = "http://localhost:8080/api/random";
 
     private final String DEMO_API = "http://localhost:9092";
 
