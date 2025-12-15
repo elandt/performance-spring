@@ -20,6 +20,14 @@
         },
         {
             "type": "java",
+            "name": "DemoApiApplication - FlightRecorder",
+            "request": "launch",
+            "mainClass": "com.lil.springperformance.api.DemoApiApplication",
+            "projectName": "api",
+            "vmArgs": "-XX:+FlightRecorder -XX:StartFlightRecording=duration=20s,filename=flight-api.jfr"
+        },
+        {
+            "type": "java",
             "name": "DemoClientApplication",
             "request": "launch",
             "mainClass": "com.lil.springperformance.client.DemoClientApplication",
